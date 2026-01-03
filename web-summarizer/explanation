@@ -1,0 +1,9 @@
+# Short Explanation
+Here we are creating an LLMs that takes a website and provide you with everything concerning the website 
+The steps below give how my program functions for those who will love to use it:
+1- I created an API key from openai and created my anaconda environment for development.
+2- In the repository you will find some fill, they contain the packages and libaries I used in the development but there are also some of which are not used in the project.
+3. I imported some libary function like selenium, beautiful soup, ollama ( because I run the program locally in my computer) and others you will find in the program.
+4. I later created a class containing the function for initialise, scraping the website. I place the function scrape in an exception for the case where if the user doesnot enter the correct website or website doesnot exists.
+5. I added our system prompt and user prompt
+6. We run the program with different websites and the results were astonishing.
